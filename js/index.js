@@ -27,7 +27,7 @@ const firebaseConfig = {
    counterRef.on('value', (snapshot) => {
      const counterValue = snapshot.val() || 0;
      if (typeof counterValue === 'number' && counterValue > 70000 && counterValue < 400000) {
-        document.getElementById('counter').innerText = counterValue;
+        document.getElementById('counter').innerText = counterValue -150000;
      } 
      else {
         document.getElementById('counter').innerText = 71237;
@@ -145,7 +145,7 @@ function handleStart() {
         setTimeout(() => {
             document.querySelector('.copyButton.'+nn).innerHTML =`COPY`  
         }, 1000);
-        navigator.clipboard.writeText('orgkmPuPHqwtehNPssrDuifbjA19dqgbaiKKh4xpump');
+        navigator.clipboard.writeText('shPWTy4ThAAU47t5jhHQgvG4zPRdbCJSsacnnkspump');
 
     }
     
