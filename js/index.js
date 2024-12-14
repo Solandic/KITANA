@@ -145,7 +145,7 @@ function handleStart() {
         setTimeout(() => {
             document.querySelector('.copyButton.'+nn).innerHTML =`COPY`  
         }, 1000);
-        navigator.clipboard.writeText('CONTRACT_TBA');
+        navigator.clipboard.writeText('38VhkXu9VB28NMCESzLcVprpZqp24UQDjKs2JUXzpump');
 
     }
     
