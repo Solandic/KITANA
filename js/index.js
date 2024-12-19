@@ -145,7 +145,7 @@ function handleStart() {
         setTimeout(() => {
             document.querySelector('.copyButton.'+nn).innerHTML =`COPY`  
         }, 1000);
-        navigator.clipboard.writeText('9wH4fGgArNPqPVGKNHZXJKzUihTC3s21vrMpjiXQpump');
+        navigator.clipboard.writeText('mgXfSNKNxasZWWGgTM9kM9wiv2gnFhHAv4MdjJeXump');
 
     }
     
